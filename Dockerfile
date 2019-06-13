@@ -8,4 +8,5 @@ FROM k8s.gcr.io/kube-controller-manager:v1.14.2
 FROM k8s.gcr.io/kube-scheduler:v1.14.2
 FROM k8s.gcr.io/pause:3.1
 FROM k8s.gcr.io/kube-controller-manager:v1.14.3
+FROM gcr.io/k8s-minikube/storage-provisioner:v1.8.1
 MAINTAINER YiLin

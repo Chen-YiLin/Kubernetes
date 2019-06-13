@@ -10,4 +10,5 @@ FROM k8s.gcr.io/pause:3.1
 FROM k8s.gcr.io/kube-controller-manager:v1.14.3
 FROM gcr.io/k8s-minikube/storage-provisioner:v1.8.1
 FROM k8s.gcr.io/kube-addon-manager:v9.0
+FROM k8s.gcr.io/kube-proxy:v1.14.3
 MAINTAINER YiLin
